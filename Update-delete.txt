@@ -1,0 +1,29 @@
+1) ticket
+Ques: Update the email of customer ticket as nahida55@gmail.com and address is 892/A,Shahidbagh whose ticket id is 7.
+   UPDATE ticket SET email='nahida55@gmail.com',address='892/A,Shahidbagh' WHERE ticket_id=7;
+
+Ques: Delete all tuples of ticket whose ticket number is Abcd-21 and ticket id is 10.
+   DELETE FROM ticket WHERE ticket_number='Abcd-21' AND ticket_id=10;
+
+2) customer_phone
+Ques: Update the phone number of customer as 1378277871 whose customer id is 7.
+   UPDATE customer_phone SET phone=1378277871 WHERE cust_id=7;
+
+Ques: Delete all tuples of a customer phone whose phone number is 1762268237 and customer id is 10.
+   DELETE FROM customer_phone WHERE phone=1762268237 AND cust_id=10;
+
+3) message
+Ques: Update the title of message as About exhibition and body of message is Plese, give me details on the ticket price whose message id is 13.
+   UPDATE message SET msg_title='About exhibition',msg_body='Please, give me details on the ticket price' WHERE msg_id=13;
+
+Ques: Delete all tuples of a message whose title is About exhibition and message id is 3.
+   DELETE FROM message WHERE msg_title='About exhibition' AND msg_id=3;
+
+4)exhibition
+Ques: Update the start date of exhibition as 2021-10-11 and place is Shilpokola Academy,Dhaka whose exhibition id is 1.
+   UPDATE exhibition SET start_date='2021-10-11',place='Shilpokola Academy,Dhaka' WHERE exhibition_id=1;
+
+Ques: Delete all tuples of a exhibition whose title is Imaginary World and exhibition id is 3.
+   DELETE FROM exhibition WHERE title='Imaginary World' AND exhibition_id=3;
+
+

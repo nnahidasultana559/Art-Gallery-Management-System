@@ -1,0 +1,11 @@
+1.Find All artist who work on art gallery
+Ans:SELECT * FROM `artist` INNER JOIN art_work WHERE artist.artist_id = art_work.artist_id
+
+2.Find All customer Who Buy ticket from art gallery
+Ans:SELECT * FROM `customer` NATURAL JOIN ticket WHERE customer.cust_id=ticket.cust_id
+
+3.Find all customer phone number from art gallery.
+Ans:SELECT * FROM `customer` INNER JOIN customer_phone WHERE customer.cust_id= customer_phone.cust_id
+
+4.Find all customer who are user.
+Ans: SELECT *FROM customer NATURAL LEFT OUTER JOIN users
